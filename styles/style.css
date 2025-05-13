@@ -56,9 +56,11 @@ margin-bottom: 28px;
 
 .why-web-development {
     width: 860px;
-    height: 1100px;
+    height: auto;
     margin: 65px 135px 0px 131px;
     padding: 71px 86px 71px 86px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .web-text {
@@ -94,11 +96,14 @@ opacity: 0.7;
     padding: 42px;
     display: flex;
     justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 29px;
 }
 
 .box-layer {
     max-width: 424px;
-    height: 189px;
+    max-height: 195px;
 }
 
 .text-decoration {
@@ -109,6 +114,7 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 14px;
 }
 
 .text-description {
@@ -120,6 +126,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 opacity: 0.7;
+margin-bottom: 28px;
 }
 
 .layer-btn {
@@ -137,4 +144,109 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+}
+
+/* inspiration containar style */
+
+.inspiration-container {
+    width: 1010px;
+    height: auto;
+    margin: 0px 135px 135px 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.inspiration-title {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.Inspiration-description {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.video {
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 14px;
+padding: 28px;
+}
+
+/* my target section style */
+
+.my-target {
+    margin: 0px 134px 0px 134px;
+    width: 1014px;
+    height: auto;
+}
+
+.Target-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.target-box {
+    max-width: 323px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.box-color1 {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.box-color2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.box-color3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-head {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 21px;
+font-weight: 800;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.target-p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+
+.btn-learn-more {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
 }
